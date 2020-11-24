@@ -1,0 +1,27 @@
+input{
+    margin: 5px;
+    padding: .5em .6em;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: #443729;
+    font-weight: bold;
+}
+
+.recipeslist{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 4fr);
+}
+
+.recipe{
+    background-color: rgb(253, 215, 87);
+}
+
+.link{
+    font-weight: bold;
+ }
+
+
